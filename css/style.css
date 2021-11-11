@@ -50,9 +50,48 @@ main {
           background: #c7c4c4; }
       main section .item:nth-of-type(12) .inner {
         background: #efefef; }
+      main section .item:nth-of-type(14) {
+        width: 24%; }
+        main section .item:nth-of-type(14) .inner {
+          border-top: 2px solid #111;
+          display: flex;
+          justify-content: space-between; }
+          main section .item:nth-of-type(14) .inner input {
+            border: none;
+            font: bold 13px/1 'arial';
+            color: #111;
+            width: 200px;
+            height: 30px; }
+          main section .item:nth-of-type(14) .inner a {
+            color: #111;
+            display: inline-block;
+            text-align: right; }
+      main section .item:nth-of-type(15) {
+        width: 24%; }
+      main section .item:nth-of-type(16) {
+        width: 48%;
+        height: 400px; }
+      main section .item:nth-of-type(17) {
+        width: 24%; }
+      main section .item:nth-of-type(18) {
+        width: 24%; }
+      main section .item:nth-of-type(19) {
+        width: 24%; }
+      main section .item:nth-of-type(20) {
+        width: 48%;
+        height: 400px; }
+      main section .item:nth-of-type(21) {
+        width: 24%; }
       main section .item .inner {
         width: 100%;
         height: 100%;
-        background: #fff; }
+        background: #fff;
+        padding: 30px; }
+        main section .item .inner p {
+          font: bold 16px/1.3 'arial';
+          margin-bottom: 30px;
+          letter-spacing: 1px; }
+        main section .item .inner span {
+          font: 14px/1 'arial'; }
 
 /*# sourceMappingURL=style.css.map */
